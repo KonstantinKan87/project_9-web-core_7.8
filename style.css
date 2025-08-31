@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: TT lakes, serif;
+    display: flex;
+}
+.conteiner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    height: auto;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 30px #0E185033;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    position: relative;
+    right: 40px;
+}
+.header__button-left,.header__button-right {
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: #FF3E79;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 20px;
+    transition: 200ms ease 0s;
+}
+.header__button-right:hover {
+background-color: limegreen; 
+}
+.header__button-left:hover {
+background-color: limegreen;   
+} 
+.header__button-right {
+    margin-right: 10px;
+}
+.menu {
+width: 222px;
+height: 876px;
+position: relative;
+
+}
+.menu__text {
+    border-left: 4px solid #41F6D7;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+.menu__content-list_item {
+    list-style: none;
+    line-height: 2.5;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 100ms ease 0s;
+}
+.menu__content-list_item:hover {
+  transform: scale(1.5) translateX(50px);    
+}
+.menu__icons{
+    margin-top: 100px;
+    gap: 20px;
+    
+}
+.menu__icons>img {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: #FF3E79;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 20px;
+    margin-left: 10px; 
+    transition: 200ms ease 0s;
+}
+.menu__icons>img:hover {
+    background-color: limegreen;
+}
+.menu__link>a {
+    margin: 20px;
+    text-decoration: none;
+   color: #1B1C21;
+}
+.menu__contacts {
+    font-weight: 800;
+    margin: 10px;
+}
+.menu__lang>img {
+  margin-left: 20px;
+  cursor: pointer;
+  transition: 200ms ease 0s;
+  }
+  .menu__lang>img:hover {
+    scale: 2;
+  }
+.conteiner_2 {
+    position: relative;
+    top: 300px;
+}
